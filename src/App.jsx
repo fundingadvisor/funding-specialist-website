@@ -15,11 +15,11 @@ function App() {
   const services = [
     {
       title: "Expert Credit Evaluation",
-      description: "Analyze credit profiles and identify the best financing options from a vetted network of 5-6 online lenders"
+      description: "Analyze credit profiles and identify the best financing options from a vetted network of 5-6 online lenders and 0% credit cards"
     },
     {
       title: "Seamless Sales Integration",
-      description: "Hot transfers from your sales team via Slack. I take the conversation from there and provide daily updates"
+      description: "Hot transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there and provide daily updates on the funding progress back to the sales rep"
     },
     {
       title: "End-to-End Support",
@@ -34,11 +34,11 @@ function App() {
   const specializations = [
     {
       category: "Funding Products",
-      items: ["Personal Loans ($1K-$60K)", "0% Credit Cards (6-12 months)", "Creative solutions for all credit profiles"]
+      items: ["Personal Loans ($1K-$60K)", "0% Credit Cards (15-21 months if qualified)", "Creative solutions for all credit profiles"]
     },
     {
       category: "Target Industries",
-      items: ["High-ticket coaching programs", "E-commerce education", "Digital marketing courses", "Personal development programs"]
+      items: ["High-ticket coaching programs", "E-commerce education", "Digital marketing courses", "Personal development programs", "Affiliate Marketing programs"]
     },
     {
       category: "Lender Network",
@@ -50,17 +50,17 @@ function App() {
     {
       number: "1",
       title: "Hot Transfer",
-      description: "Sales rep hands off prospect via Slack with contact information"
+      description: "Sales rep hands off prospect via Slack or Skype or similar application with contact information, Credit Score, Personal Yearly Income, and desired package amount"
     },
     {
       number: "2",
       title: "Initial Consultation",
-      description: "20-30 minute call to understand financial situation and funding needs"
+      description: "20-30 min to establish credit profile and begin the funding process if qualified"
     },
     {
       number: "3",
       title: "Lender Matching",
-      description: "Match prospect with best lender based on credit profile and needs"
+      description: "Match prospect with best lender based on credit profile and income level"
     },
     {
       number: "4",
@@ -70,7 +70,7 @@ function App() {
     {
       number: "5",
       title: "Daily Follow-Up",
-      description: "Stay in touch with prospect and provide Slack updates to your team"
+      description: "Stay in touch with prospect and provide funding progress updates to your team"
     },
     {
       number: "6",
@@ -119,7 +119,7 @@ function App() {
         <div className="nav-container">
           <div className="logo">
             <h1>Funding Specialist</h1>
-            <p className="tagline">Independent B2B Funding Contractor</p>
+            <p className="tagline">Expert Funding Support for High-Ticket Programs</p>
           </div>
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
@@ -178,7 +178,7 @@ function App() {
             </div>
             
             <h3>How I Work</h3>
-            <p>I work as a performance-based contractor, meaning I only get paid when your prospects get funded. I integrate directly into your sales process through "hot transfers" via Slack, handle all the funding details, provide daily updates to your team, and stay with each client until they receive their funds. I work a focused 3.5-hour daily shift during your peak sales hours, plus I'm available via Calendly for off-shift consultations.</p>
+            <p>I work as a performance-based contractor, meaning I only get paid when your prospects get funded. I integrate directly into your sales process through "hot transfers" via Slack (or whatever communication process your company currently uses), handle all the funding details, provide daily updates to your team, and stay with each client until they receive their funds. I work a focused 3.5-hour daily shift during your peak sales hours, plus I make scheduling available via Calendly, providing multiple times a day to make it convenient for the customer.</p>
           </div>
         </div>
       </section>
@@ -242,13 +242,13 @@ function App() {
             <div className="metrics-grid">
               <div className="metric">
                 <div className="metric-label">Average Funding Time</div>
-                <div className="metric-value">5 Days</div>
+                <div className="metric-value">5-7 Days</div>
                 <div className="metric-note">Personal loans (without complications)</div>
               </div>
               <div className="metric">
                 <div className="metric-label">Initial Consultation</div>
                 <div className="metric-value">20-30 Min</div>
-                <div className="metric-note">Efficient and focused</div>
+                <div className="metric-note">To establish credit profile and begin funding process</div>
               </div>
               <div className="metric">
                 <div className="metric-label">Funding Range</div>
@@ -330,8 +330,8 @@ function App() {
             </div>
             <div className="req-card">
               <h3>Communication</h3>
-              <p><strong>Hot Transfers:</strong> Slack</p>
-              <p><strong>Updates:</strong> Daily Slack messages</p>
+              <p><strong>Hot Transfers:</strong> Slack or cold, depending on the communication style of your company</p>
+              <p><strong>Updates:</strong> Daily progress messages</p>
               <p><strong>Scheduling:</strong> Calendly calendar</p>
             </div>
             <div className="req-card">
