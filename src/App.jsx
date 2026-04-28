@@ -1,10 +1,25 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import './App.css'
 import lynneHeadshot from './assets/lynne-headshot.png'
 
 function App() {
   const [state, handleSubmit] = useForm('xaqarjrd')
+  const [showSuccess, setShowSuccess] = useState(false)
+  const formRef = useRef(null)
+
+  useEffect(() => {
+    if (state.succeeded) {
+      setShowSuccess(true)
+      if (formRef.current) {
+        formRef.current.reset()
+      }
+      const timer = setTimeout(() => {
+        setShowSuccess(false)
+      }, 3000)
+      return () => clearTimeout(timer)
+    }
+  }, [state.succeeded])
 
   const stats = [
     { number: "5,000+", label: "Clients Funded", icon: "👥" },
@@ -457,8 +472,8 @@ function App() {
           <p className="section-subtitle">Let's discuss how we can work together to convert more qualified prospects</p>
           
           <div className="contact-form">
-            <form onSubmit={handleSubmit}>
-              {state.succeeded && (
+            <form ref={formRef} onSubmit={handleSubmit}>
+              {showSuccess && (
                 <div className="success-message">
                   ✓ Thank you! I'll be in touch within 24 hours to discuss partnership opportunities.
                 </div>
