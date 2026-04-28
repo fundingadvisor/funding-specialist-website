@@ -79,6 +79,49 @@ function App() {
     }
   ]
 
+  const clients = [
+    {
+      name: "Sophie Howard",
+      description: "Amazon FBA and e-commerce education programs helping clients build and scale private label online businesses."
+    },
+    {
+      name: "Douglas James",
+      description: "Digital marketing and agency coaching programs focused on building and scaling online service-based businesses."
+    },
+    {
+      name: "Peter Sage",
+      description: "Personal development and transformation programs including high-ticket coaching, events, and mindset training."
+    },
+    {
+      name: "Adam Cherrington",
+      description: "Online business and affiliate marketing education programs teaching digital income and business creation strategies."
+    },
+    {
+      name: "Robby Blanchard",
+      description: "Affiliate marketing training programs focused on paid advertising, funnels, and online sales systems (Commission Hero)."
+    },
+    {
+      name: "Rick Melero",
+      description: "Financial education programs focused on wealth-building strategies and alternative financing methods (Micro Banking Method / HIS Capital)."
+    },
+    {
+      name: "Cheryl Hunter",
+      description: "Personal development, media training, and coaching programs focused on confidence, communication, and transformation."
+    },
+    {
+      name: "Brendan Kane",
+      description: "Digital marketing and social media growth programs focused on audience building, viral content, and brand scaling."
+    },
+    {
+      name: "Forex for Women",
+      description: "Forex trading education and mentorship programs led by Amanda Custer, Jemma Wilson, and Jenn Eusterwiemann, focused on teaching currency trading strategies."
+    },
+    {
+      name: "Teo Vanyo – Stealth Agents",
+      description: "Virtual assistant staffing company providing outsourced administrative, marketing, and operational support to help businesses scale efficiently."
+    }
+  ]
+
   const benefits = [
     {
       title: "Increased Conversions",
@@ -124,6 +167,7 @@ function App() {
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Experience</a></li>
             <li><a href="#process">Process</a></li>
             <li><a href="#benefits">Benefits</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -295,6 +339,23 @@ function App() {
                 <p>Zero risk to your company</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Experience Section */}
+      <section id="clients" className="section clients-section">
+        <div className="container">
+          <h2>Client Funding Experience</h2>
+          <p className="section-subtitle">High-Ticket Education, Coaching & Business Services</p>
+          
+          <div className="clients-grid">
+            {clients.map((client, index) => (
+              <div key={index} className="client-card">
+                <h3>{client.name}</h3>
+                <p>{client.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
