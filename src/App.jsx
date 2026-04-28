@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 import './App.css'
 import lynneHeadshot from './assets/lynne-headshot.png'
 
 function App() {
-  const [formSubmitted, setFormSubmitted] = useState(false)
+  const [state, handleSubmit] = useForm('xaqarjrd')
 
   const stats = [
     { number: "5,000+", label: "Clients Funded", icon: "👥" },
@@ -156,15 +157,6 @@ function App() {
     }
   }
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault()
-    // Formspree will handle the submission automatically
-    // Just show the success message and reset the form
-    setFormSubmitted(true)
-    e.target.reset()
-    setTimeout(() => setFormSubmitted(false), 3000)
-  }
-
   return (
     <div className="app">
       {/* Navigation */}
@@ -261,7 +253,7 @@ function App() {
           <h2>Specializations</h2>
           <div className="specializations-grid">
             {specializations.map((spec, index) => (
-              <div key={index} className="spec-card">
+              <div key={index} className="specialization-card">
                 <h3>{spec.category}</h3>
                 <ul>
                   {spec.items.map((item, itemIndex) => (
@@ -280,13 +272,13 @@ function App() {
           <h2>How It Works</h2>
           <p className="section-subtitle">A seamless 6-step process from hot transfer to funded client</p>
           
-          <div className="process-grid">
+          <div className="process-steps">
             {processSteps.map((step, index) => (
-              <div key={index} className="process-card">
-                <div className="process-number">{step.number}</div>
+              <div key={index} className="process-step">
+                <div className="step-number">{step.number}</div>
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>
-                {index < processSteps.length - 1 && <div className="process-arrow">→</div>}
+                {index < processSteps.length - 1 && <div className="step-arrow">→</div>}
               </div>
             ))}
           </div>
@@ -295,24 +287,24 @@ function App() {
             <h3>Key Metrics</h3>
             <div className="metrics-grid">
               <div className="metric">
-                <div className="metric-label">Average Funding Time</div>
-                <div className="metric-value">5-7 Days</div>
-                <div className="metric-note">Personal loans (without complications)</div>
+                <h4>Average Funding Time</h4>
+                <p className="metric-value">5-7 Days</p>
+                <p className="metric-desc">Personal loans (without complications)</p>
               </div>
               <div className="metric">
-                <div className="metric-label">Initial Consultation</div>
-                <div className="metric-value">20-30 Min</div>
-                <div className="metric-note">To establish credit profile and begin funding process</div>
+                <h4>Initial Consultation</h4>
+                <p className="metric-value">20-30 Min</p>
+                <p className="metric-desc">To establish credit profile and begin funding process</p>
               </div>
               <div className="metric">
-                <div className="metric-label">Funding Range</div>
-                <div className="metric-value">$1K - $60K</div>
-                <div className="metric-note">Average $10K per client</div>
+                <h4>Funding Range</h4>
+                <p className="metric-value">$1K - $60K</p>
+                <p className="metric-desc">Average $10K per client</p>
               </div>
               <div className="metric">
-                <div className="metric-label">Capacity</div>
-                <div className="metric-value">20-30+ Clients/Week</div>
-                <div className="metric-note">Can handle high volume</div>
+                <h4>Capacity</h4>
+                <p className="metric-value">20-30+ Clients/Week</p>
+                <p className="metric-desc">Can handle high volume</p>
               </div>
             </div>
           </div>
@@ -325,28 +317,38 @@ function App() {
           <h2>Compensation Model</h2>
           <p className="section-subtitle">Performance-based pricing aligned with your success</p>
           
-          <div className="compensation-box">
-            <div className="comp-highlight">
-              <h3>4% of Completed Product Purchase</h3>
-              <p className="comp-description">I only get paid when your prospect gets funded and completes the purchase</p>
-            </div>
+          <div className="compensation-card">
+            <h3>4% of Completed Product Purchase</h3>
+            <p>I only get paid when your prospect gets funded and completes the purchase</p>
             
-            <div className="comp-details">
-              <div className="comp-item">
-                <h4>✓ No Upfront Fees</h4>
-                <p>Zero cost to start the partnership</p>
+            <div className="compensation-features">
+              <div className="feature">
+                <span className="checkmark">✓</span>
+                <div>
+                  <h4>No Upfront Fees</h4>
+                  <p>Zero cost to start the partnership</p>
+                </div>
               </div>
-              <div className="comp-item">
-                <h4>✓ Performance-Based</h4>
-                <p>I succeed when your prospects succeed</p>
+              <div className="feature">
+                <span className="checkmark">✓</span>
+                <div>
+                  <h4>Performance-Based</h4>
+                  <p>I succeed when your prospects succeed</p>
+                </div>
               </div>
-              <div className="comp-item">
-                <h4>✓ Calculated on Purchase Amount</h4>
-                <p>If prospect funds $15K but uses $10K for program, I get 4% of $10K</p>
+              <div className="feature">
+                <span className="checkmark">✓</span>
+                <div>
+                  <h4>Calculated on Purchase Amount</h4>
+                  <p>If prospect funds $15K but uses $10K for program, I get 4% of $10K</p>
+                </div>
               </div>
-              <div className="comp-item">
-                <h4>✓ No Payment if Not Funded</h4>
-                <p>Zero risk to your company</p>
+              <div className="feature">
+                <span className="checkmark">✓</span>
+                <div>
+                  <h4>No Payment if Not Funded</h4>
+                  <p>Zero risk to your company</p>
+                </div>
               </div>
             </div>
           </div>
@@ -370,7 +372,7 @@ function App() {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Partnership Benefits Section */}
       <section id="benefits" className="section benefits-section">
         <div className="container">
           <h2>Partnership Benefits</h2>
@@ -388,24 +390,24 @@ function App() {
         </div>
       </section>
 
-      {/* Requirements Section */}
+      {/* Partnership Requirements Section */}
       <section className="section requirements-section">
         <div className="container">
           <h2>Partnership Requirements</h2>
           <div className="requirements-grid">
-            <div className="req-card">
+            <div className="requirement-card">
               <h3>Lead Volume</h3>
               <p><strong>Minimum:</strong> 2-5 prospects/week</p>
               <p><strong>Optimal:</strong> 10-20+ prospects/week</p>
               <p><strong>Capacity:</strong> 20-30+ prospects/week</p>
             </div>
-            <div className="req-card">
+            <div className="requirement-card">
               <h3>Communication</h3>
               <p><strong>Hot Transfers or Cold Transfers:</strong> Depending on the communication style of your company</p>
               <p><strong>Updates:</strong> Daily progress messages</p>
               <p><strong>Scheduling:</strong> Calendly calendar</p>
             </div>
-            <div className="req-card">
+            <div className="requirement-card">
               <h3>Availability</h3>
               <p><strong>Primary Shift:</strong> 3.5 hours daily</p>
               <p><strong>Off-Shift:</strong> Calendly scheduling</p>
@@ -455,31 +457,39 @@ function App() {
           <p className="section-subtitle">Let's discuss how we can work together to convert more qualified prospects</p>
           
           <div className="contact-form">
-            <form action="https://formspree.io/f/xaqarjrd" method="POST" onSubmit={handleFormSubmit}>
-              {formSubmitted && (
+            <form onSubmit={handleSubmit}>
+              {state.succeeded && (
                 <div className="success-message">
                   ✓ Thank you! I'll be in touch within 24 hours to discuss partnership opportunities.
                 </div>
               )}
               <div className="form-group">
                 <input type="text" name="name" placeholder="Your Name" required />
+                <ValidationError field="name" errors={state.errors} />
               </div>
               <div className="form-group">
                 <input type="email" name="email" placeholder="Your Email" required />
+                <ValidationError field="email" errors={state.errors} />
               </div>
               <div className="form-group">
                 <input type="text" name="company" placeholder="Company Name" required />
+                <ValidationError field="company" errors={state.errors} />
               </div>
               <div className="form-group">
                 <input type="text" name="programType" placeholder="Program Type (e.g., Coaching, E-commerce, Digital Marketing)" required />
+                <ValidationError field="programType" errors={state.errors} />
               </div>
               <div className="form-group">
                 <input type="text" name="prospectsPerWeek" placeholder="Estimated Prospects/Week" required />
+                <ValidationError field="prospectsPerWeek" errors={state.errors} />
               </div>
               <div className="form-group">
                 <textarea name="message" placeholder="Tell me about your program and partnership goals..." rows="5" required></textarea>
+                <ValidationError field="message" errors={state.errors} />
               </div>
-              <button type="submit" className="submit-button">Send Message</button>
+              <button type="submit" disabled={state.submitting} className="submit-button">
+                {state.submitting ? 'Sending...' : 'Send Message'}
+              </button>
             </form>
           </div>
 
