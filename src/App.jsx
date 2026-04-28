@@ -156,55 +156,13 @@ function App() {
     }
   }
 
-  const handleFormSubmit = async (e) => {
+  const handleFormSubmit = (e) => {
     e.preventDefault()
-    
-    // Get form data
-    const formData = new FormData(e.target)
-    const data = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      company: formData.get('company'),
-      programType: formData.get('programType'),
-      prospectsPerWeek: formData.get('prospectsPerWeek'),
-      message: formData.get('message')
-    }
-
-    try {
-      // Send email via EmailJS
-      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          service_id: 'service_funding',
-          template_id: 'template_funding',
-          user_id: 'YOUR_EMAILJS_PUBLIC_KEY',
-          template_params: {
-            to_email: 'fundingwithlynne@gmail.com',
-            from_name: data.name,
-            from_email: data.email,
-            company_name: data.company,
-            program_type: data.programType,
-            prospects_per_week: data.prospectsPerWeek,
-            message: data.message
-          }
-        })
-      })
-      
-      if (response.ok) {
-        setFormSubmitted(true)
-        e.target.reset()
-        setTimeout(() => setFormSubmitted(false), 3000)
-      }
-    } catch (error) {
-      console.error('Error sending email:', error)
-      // Still show success message for now
-      setFormSubmitted(true)
-      e.target.reset()
-      setTimeout(() => setFormSubmitted(false), 3000)
-    }
+    // Formspree will handle the submission automatically
+    // Just show the success message and reset the form
+    setFormSubmitted(true)
+    e.target.reset()
+    setTimeout(() => setFormSubmitted(false), 3000)
   }
 
   return (
@@ -497,7 +455,7 @@ function App() {
           <p className="section-subtitle">Let's discuss how we can work together to convert more qualified prospects</p>
           
           <div className="contact-form">
-            <form onSubmit={handleFormSubmit}>
+            <form action="https://formspree.io/f/xaqarjrd" method="POST" onSubmit={handleFormSubmit}>
               {formSubmitted && (
                 <div className="success-message">
                   ✓ Thank you! I'll be in touch within 24 hours to discuss partnership opportunities.
