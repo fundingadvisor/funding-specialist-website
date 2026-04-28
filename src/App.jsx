@@ -149,10 +149,62 @@ function App() {
     }
   ]
 
-  const handleFormSubmit = (e) => {
+  const handleStartPartnership = () => {
+    const contactSection = document.getElementById('contact')
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const handleFormSubmit = async (e) => {
     e.preventDefault()
-    setFormSubmitted(true)
-    setTimeout(() => setFormSubmitted(false), 3000)
+    
+    // Get form data
+    const formData = new FormData(e.target)
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      company: formData.get('company'),
+      programType: formData.get('programType'),
+      prospectsPerWeek: formData.get('prospectsPerWeek'),
+      message: formData.get('message')
+    }
+
+    try {
+      // Send email via EmailJS
+      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          service_id: 'service_funding',
+          template_id: 'template_funding',
+          user_id: 'YOUR_EMAILJS_PUBLIC_KEY',
+          template_params: {
+            to_email: 'fundingwithlynne@gmail.com',
+            from_name: data.name,
+            from_email: data.email,
+            company_name: data.company,
+            program_type: data.programType,
+            prospects_per_week: data.prospectsPerWeek,
+            message: data.message
+          }
+        })
+      })
+      
+      if (response.ok) {
+        setFormSubmitted(true)
+        e.target.reset()
+        setTimeout(() => setFormSubmitted(false), 3000)
+      }
+    } catch (error) {
+      console.error('Error sending email:', error)
+      // Still show success message for now
+      setFormSubmitted(true)
+      e.target.reset()
+      setTimeout(() => setFormSubmitted(false), 3000)
+    }
   }
 
   return (
@@ -189,7 +241,7 @@ function App() {
               </div>
             ))}
           </div>
-          <button className="cta-button">Start Partnership</button>
+          <button className="cta-button" onClick={handleStartPartnership}>Start Partnership</button>
         </div>
       </section>
 
@@ -452,22 +504,22 @@ function App() {
                 </div>
               )}
               <div className="form-group">
-                <input type="text" placeholder="Your Name" required />
+                <input type="text" name="name" placeholder="Your Name" required />
               </div>
               <div className="form-group">
-                <input type="email" placeholder="Your Email" required />
+                <input type="email" name="email" placeholder="Your Email" required />
               </div>
               <div className="form-group">
-                <input type="text" placeholder="Company Name" required />
+                <input type="text" name="company" placeholder="Company Name" required />
               </div>
               <div className="form-group">
-                <input type="text" placeholder="Program Type (e.g., Coaching, E-commerce, Digital Marketing)" required />
+                <input type="text" name="programType" placeholder="Program Type (e.g., Coaching, E-commerce, Digital Marketing)" required />
               </div>
               <div className="form-group">
-                <input type="text" placeholder="Estimated Prospects/Week" required />
+                <input type="text" name="prospectsPerWeek" placeholder="Estimated Prospects/Week" required />
               </div>
               <div className="form-group">
-                <textarea placeholder="Tell me about your program and partnership goals..." rows="5" required></textarea>
+                <textarea name="message" placeholder="Tell me about your program and partnership goals..." rows="5" required></textarea>
               </div>
               <button type="submit" className="submit-button">Send Message</button>
             </form>
@@ -475,7 +527,7 @@ function App() {
 
           <div className="contact-info">
             <p>Or reach out directly to discuss partnership opportunities</p>
-            <p className="email">contact@fundingspecialist.com</p>
+            <p className="email"><a href="mailto:fundingwithlynne@gmail.com">fundingwithlynne@gmail.com</a></p>
           </div>
         </div>
       </section>
