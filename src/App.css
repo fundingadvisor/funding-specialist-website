@@ -123,6 +123,7 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 .hero-content p {
