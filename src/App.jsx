@@ -330,7 +330,7 @@ function App() {
             </div>
             <div className="req-card">
               <h3>Communication</h3>
-              <p><strong>Hot Transfers:</strong> Slack or cold, depending on the communication style of your company</p>
+              <p><strong>Hot Transfers or Cold Transfers:</strong> Depending on the communication style of your company</p>
               <p><strong>Updates:</strong> Daily progress messages</p>
               <p><strong>Scheduling:</strong> Calendly calendar</p>
             </div>
