@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import lynneHeadshot from './assets/lynne-headshot.png'
 
 function App() {
   const [formSubmitted, setFormSubmitted] = useState(false)
@@ -165,8 +166,16 @@ function App() {
           </div>
 
           <div className="about-content">
-            <h3>Who I Am</h3>
-            <p>I'm an independent funding specialist contractor with 5+ years of proven success helping high-ticket coaching, e-commerce education, and digital marketing companies remove financial barriers for their clients. I've successfully funded over 5,000 clients by matching them with the right lenders and guiding them through the entire funding process.</p>
+            <div className="about-header">
+              <div className="about-photo">
+                <img src={lynneHeadshot} alt="Lynne Faulkner" />
+              </div>
+              <div className="about-text">
+                <h3>Who I Am</h3>
+                <p><strong>Lynne Faulkner</strong></p>
+                <p>I'm an independent funding specialist contractor with 5+ years of proven success helping high-ticket coaching, e-commerce education, and digital marketing companies remove financial barriers for their clients. I've successfully funded over 5,000 clients by matching them with the right lenders and guiding them through the entire funding process.</p>
+              </div>
+            </div>
             
             <h3>How I Work</h3>
             <p>I work as a performance-based contractor, meaning I only get paid when your prospects get funded. I integrate directly into your sales process through "hot transfers" via Slack, handle all the funding details, provide daily updates to your team, and stay with each client until they receive their funds. I work a focused 3.5-hour daily shift during your peak sales hours, plus I'm available via Calendly for off-shift consultations.</p>
