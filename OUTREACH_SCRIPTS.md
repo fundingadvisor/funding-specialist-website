@@ -38,9 +38,9 @@ I'm an independent funding specialist, and I've successfully funded over 5,000 c
 
 **Here's how it works:**
 
-I integrate directly into your sales process. Your sales rep hands off the prospect to me via Slack (a "hot transfer"), and I take it from there. I spend 20-30 minutes understanding their financial situation, match them with the right lender from my network of 5-6 vetted online lenders, guide them through the application, and stay with them daily until they're funded. Then I provide your team with daily Slack updates so you know exactly where each prospect stands.
+I integrate directly into your sales process. Your sales rep hands off the prospect to me with prospect transfers through your preferred communication platform, and I take it from there. I spend 20-30 minutes understanding their financial situation, match them with the right lender from my network of 5-6 vetted online lenders, guide them through the application, and stay with them daily until they're funded. Then I provide your team with daily updates so you know exactly where each prospect stands.
 
-**The best part? I only get paid 4% of the completed product purchase when the prospect gets funded.** Zero upfront cost, zero risk to you. I succeed when your prospects succeed.
+**The best part? My compensation is 4% of the completed product purchase when the prospect gets funded.** Zero upfront cost, zero risk to you. I succeed when your prospects succeed.
 
 **The results speak for themselves:**
 - 5,000+ clients successfully funded
@@ -80,9 +80,9 @@ Hi [First Name],
 
 Thanks for connecting! I wanted to reach out because I think there's a real opportunity here.
 
-I work with high-ticket programs to solve a specific problem: qualified prospects who are ready to commit but don't have the cash available upfront. I've helped 5,000+ clients access funding through a network of vetted lenders, and I work on a performance basis—you only pay me 4% of the completed purchase when a prospect gets funded.
+I work with high-ticket programs to solve a specific problem: qualified prospects who are ready to commit but don't have the cash available upfront. I've helped 5,000+ clients access funding through a network of vetted lenders, and I work on a performance basis—my compensation is 4% of the completed purchase when a prospect gets funded.
 
-The process is simple: your sales rep hands off the prospect to me via Slack, I handle all the funding details, provide daily updates, and stay with them until they're funded. Average timeline is 5 days.
+The process is simple: your sales rep hands off the prospect to me through your preferred communication platform, I handle all the funding details, provide daily updates, and stay with them until they're funded. Average timeline is 5 days.
 
 I'd love to have a quick conversation about how this could work for your program. Are you open to a brief call this week?
 
@@ -102,15 +102,15 @@ Lynne
 
 ### If They Ask "What's This About?"
 
-"Great question. Essentially, I help remove one of the biggest barriers to conversion for high-ticket programs—the upfront cost. I've successfully funded over 5,000 clients, and I work on a performance basis, so you only pay me when a prospect gets funded. I integrate directly into your sales process via Slack, handle all the funding details, and provide daily updates. I'd love to explore if this could be a fit for your program."
+"Great question. Essentially, I help remove one of the biggest barriers to conversion for high-ticket programs—the upfront cost. I've successfully funded over 5,000 clients, and I work on a performance basis, so compensation is earned only when a prospect gets funded. I integrate directly into your sales process through your preferred communication platform, handle all the funding details, and provide daily updates. I'd love to explore if this could be a fit for your program."
 
 ### If They Say "Tell Me More"
 
-"Perfect. Here's the quick version: Your sales rep hands off a qualified prospect to me via Slack—what I call a 'hot transfer.' I spend 20-30 minutes with them, understand their financial situation, match them with the right lender from my network, guide them through the application, and then I stay in touch daily until they're funded. Your team gets daily Slack updates so you know exactly where they stand. When they're funded, I provide your team with confirmation, and I get paid 4% of the completed product purchase. That's it. Zero upfront cost, zero risk."
+"Perfect. Here's the quick version: Your sales rep hands off a qualified prospect to me through your preferred communication platform. I spend 20-30 minutes with them, understand their financial situation, match them with the right lender from my network, guide them through the application, and then I stay in touch daily until they're funded. Your team gets daily updates so you know exactly where they stand. When they're funded, I provide your team with confirmation, and my compensation is 4% of the completed product purchase. That's it. Zero upfront cost, zero risk."
 
 ### If They Ask "How Much Does This Cost?"
 
-"Great question—it's completely performance-based. I only get paid 4% of the completed product purchase when a prospect successfully gets funded. If they don't get funded, you don't pay anything. So there's zero risk and zero upfront cost to try this out."
+"Great question—it's completely performance-based. My compensation is 4% of the completed product purchase when a prospect successfully gets funded. If they don't get funded, you don't pay anything. So there's zero risk and zero upfront cost to try this out."
 
 ### If They Ask "What's Your Success Rate?"
 
@@ -122,7 +122,7 @@ Lynne
 
 ### If They Ask "How Do We Get Started?"
 
-"Perfect. Here's what I suggest: Let's schedule a brief call where I can walk you through exactly how the process works, answer any questions, and we can see if this is a fit. I'm available [mention your available times]. Also, check out my website at [https://funding-specialist-website.vercel.app](https://funding-specialist-website.vercel.app)—it has all the details about my process, pricing, and how companies work with me. Does [specific time] work for you?"
+"Perfect. Here's what I suggest: Let's schedule a brief call where I can walk you through exactly how the process works, answer any questions, and we can see if this is a fit. I'm available [mention your available times]. Also, check out my website at [https://funding-specialist-website.vercel.app](https://funding-specialist-website.vercel.app)—it has all the details about my process, compensation structure, and how companies work with me. Does [specific time] work for you?"
 
 ### Closing
 
@@ -229,7 +229,7 @@ contact@fundingspecialist.com
 
 ### Objection: "What if a prospect doesn't get funded?"
 
-**Response:** "Great question. If a prospect doesn't get funded, you don't pay me anything. I only get paid when the prospect successfully gets funded and completes the purchase. So there's zero risk to you. I'm incentivized to find creative solutions and work with all credit profiles to make it happen."
+**Response:** "Great question. If a prospect doesn't get funded, you don't pay me anything. My compensation is earned only when the prospect successfully gets funded and completes the purchase. So there's zero risk to you. I'm incentivized to find creative solutions and work with all credit profiles to make it happen."
 
 ### Objection: "How do we know you're legitimate?"
 
@@ -241,11 +241,11 @@ contact@fundingspecialist.com
 
 **Lead with the problem:** Most high-ticket programs lose qualified prospects at the final stage due to price.
 
-**Emphasize performance-based pricing:** You only get paid 4% when a prospect gets funded. Zero upfront cost, zero risk.
+**Emphasize performance-based pricing:** Compensation is earned at 4% when a prospect gets funded. Zero upfront cost, zero risk.
 
 **Highlight your track record:** 5,000+ clients funded, 5+ years of experience, average 5-day timeline.
 
-**Stress seamless integration:** Hot transfers via Slack, daily updates, minimal training required.
+**Stress seamless integration:** Prospect transfers through preferred communication platform, daily updates, minimal training required.
 
 **Mention flexibility:** You work with multiple companies simultaneously and can handle 20-30+ prospects per week.
 
