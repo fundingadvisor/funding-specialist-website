@@ -330,7 +330,7 @@ function App() {
           
           <div className="compensation-card">
             <h3>4% of Completed Product Purchase</h3>
-            <p>I only get paid when your prospect gets funded and completes the purchase</p>
+            <p>I get paid when your prospect gets funded and completes the purchase</p>
             
             <div className="compensation-features">
               <div className="feature">
