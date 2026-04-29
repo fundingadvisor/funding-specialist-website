@@ -39,7 +39,7 @@ function App() {
     },
     {
       title: "End-to-End Support",
-      description: "Daily follow-up with prospects until funded. I can even assist with product purchases once funding is received"
+      description: "Daily follow-up with prospects until funded, with daily updates on progress back to the sales rep. I can even assist with product purchases once funding is received"
     },
     {
       title: "Flexible Availability",
