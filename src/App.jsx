@@ -184,7 +184,7 @@ function App() {
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#clients">Experience</a></li>
+            <li><a href="#clients">Past Clients</a></li>
             <li><a href="#process">Process</a></li>
             <li><a href="#benefits">Benefits</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -509,7 +509,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 Independent Funding Specialist. All rights reserved.</p>
+          <p>&copy; 2026 Independent Funding Specialist. All rights reserved.</p>
           <p>Helping high-ticket programs increase conversions through accessible financing solutions.</p>
         </div>
       </footer>
