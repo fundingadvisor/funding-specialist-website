@@ -31,7 +31,7 @@ function App() {
   const services = [
     {
       title: "Expert Credit Evaluation",
-      description: "Analyze credit profiles and identify the best financing options from a vetted network of 5-6 online lenders and 0% credit cards"
+      description: "Evaluate each prospect's credit profile and match them with the best lender options (5-6 vetted online lenders + 0% credit cards) to maximize approval odds"
     },
     {
       title: "Seamless Sales Integration",
@@ -66,7 +66,7 @@ function App() {
     {
       number: "1",
       title: "Prospect Transfer",
-      description: "Sales rep transfers prospect via Slack, Skype, or your preferred platform (Prospect Transfer), providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
+      description: "Sales rep transfers prospect via Slack, Skype, or your preferred platform, providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
     },
     {
       number: "2",
@@ -239,7 +239,7 @@ function App() {
             </div>
             
             <h3>How I Work</h3>
-            <p>I work as a performance-based contractor, meaning I only get paid when your prospects get funded. I integrate directly into your sales process through "hot transfers" via Slack (or whatever communication process your company currently uses), handle all the funding details, provide daily updates to your team, and stay with each client until they receive their funds. I work a focused 3.5-hour daily shift during your peak sales hours, plus I make scheduling available via Calendly, providing multiple times a day to make it convenient for the customer.</p>
+            <p>I work as a performance-based contractor, earning compensation only when your prospects successfully get funded. I integrate directly into your sales process through prospect transfers via Slack or your preferred communication platform, handling all funding details and providing daily updates to your team. I maintain a focused 3.5-hour daily shift during your peak sales hours and offer Calendly scheduling for off-shift consultations, ensuring convenience for your prospects throughout the funding process.</p>
           </div>
         </div>
       </section>
@@ -439,7 +439,7 @@ function App() {
             </div>
             <div className="faq-item">
               <h4>What if a prospect doesn't qualify?</h4>
-              <p>I work with all credit profiles, including bad credit, to find creative solutions. If a prospect truly doesn't qualify, I'll let you know immediately so you can discuss alternatives.</p>
+              <p>I work with all credit profiles, including challenging credit situations, to identify creative solutions. If a prospect doesn't qualify, I'll communicate immediately so you can discuss alternatives.
             </div>
             <div className="faq-item">
               <h4>How long does funding take?</h4>
