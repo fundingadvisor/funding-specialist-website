@@ -306,11 +306,7 @@ function App() {
                 <p className="metric-value">Personal Loans: 5-7 Days</p>
                 <p className="metric-desc">0% Credit Cards: 7 Days</p>
               </div>
-              <div className="metric">
-                <h4>Initial Consultation</h4>
-                <p className="metric-value">20-30 Min</p>
-                <p className="metric-desc">To establish credit profile and begin funding process</p>
-              </div>
+
               <div className="metric">
                 <h4>Funding Range</h4>
                 <p className="metric-value">$1K - $60K</p>
