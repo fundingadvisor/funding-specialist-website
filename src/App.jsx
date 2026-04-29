@@ -368,7 +368,7 @@ function App() {
       <section id="clients" className="section clients-section">
         <div className="container">
           <h2>Companies I've Worked With</h2>
-          <p className="section-subtitle">High-Ticket Education, Coaching & Business Services</p>
+          <p className="section-subtitle">High-Ticket: Education, Coaching, and Business Services</p>
           
           <div className="clients-grid">
             {clients.map((client, index) => (
