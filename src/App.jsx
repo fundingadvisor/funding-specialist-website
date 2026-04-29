@@ -412,7 +412,7 @@ function App() {
             </div>
             <div className="requirement-card" style={{ marginBottom: '1.5rem' }}>
               <h3>Communication</h3>
-              <p><strong>Prospect Transfers:</strong> Via your preferred communication platform</p>
+              <p><strong>Prospect Transfers:</strong> Via your preferred platform</p>
               <p><strong>Updates:</strong> Daily progress messages</p>
               <p><strong>Scheduling:</strong> Calendly calendar</p>
             </div>
@@ -420,7 +420,7 @@ function App() {
               <h3>Availability</h3>
               <p><strong>Primary Shift:</strong> 3.5 hours daily</p>
               <p><strong>Off-Shift:</strong> Calendly scheduling</p>
-              <p><strong>Flexibility:</strong> Willing to work out schedules most convenient for the team</p>
+              <p><strong>Flexibility:</strong> Scheduling for client/team convenience</p>
             </div>
           </div>
         </div>
