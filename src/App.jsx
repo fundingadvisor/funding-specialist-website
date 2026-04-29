@@ -58,7 +58,7 @@ function App() {
     },
     {
       category: "Lender Network",
-      items: ["5-6 vetted online lenders", "No exclusive affiliations", "Objective recommendations based on credit profile"]
+      items: ["5-6 vetted online lenders", "No exclusive affiliations"]
     }
   ]
 
