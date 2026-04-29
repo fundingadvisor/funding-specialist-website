@@ -220,7 +220,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h2>Convert More Prospects With Expert Funding Support</h2>
+          <h2>Convert More Prospects With<br/>Expert Funding Support</h2>
           <p>Remove the price barrier for qualified prospects through accessible personal loans and credit card financing</p>
           <div className="hero-stats">
             {stats.map((stat, index) => (

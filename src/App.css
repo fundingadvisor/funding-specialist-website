@@ -123,9 +123,11 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 700;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
-  text-stroke: 1px rgba(255, 255, 255, 0.9);
+  color: white;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.7);
+  text-stroke: 1.5px rgba(0, 0, 0, 0.7);
   paint-order: stroke fill;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content p {
