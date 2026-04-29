@@ -35,7 +35,7 @@ function App() {
     },
     {
       title: "Seamless Sales Integration",
-      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there and provide daily updates on the funding progress back to the sales rep"
+      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there."
     },
     {
       title: "End-to-End Support",
