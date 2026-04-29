@@ -290,15 +290,13 @@ function App() {
           <div className="process-steps">
             {processSteps.map((step, index) => (
               <div key={index} className="process-step">
-                <div className="step-number">{step.number}</div>
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>
-                {index < processSteps.length - 1 && <div className="step-arrow">→</div>}
               </div>
             ))}
           </div>
 
-          <div style={{ marginTop: '3rem' }} className="key-metrics">
+          <div className="key-metrics">
             <h3>Key Metrics</h3>
             <div className="metrics-grid">
               <div className="metric">
