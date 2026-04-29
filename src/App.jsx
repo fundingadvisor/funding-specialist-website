@@ -239,7 +239,7 @@ function App() {
             </div>
             
             <h3>How I Work</h3>
-            <p>I work as a performance-based contractor, earning compensation only when your prospects successfully get funded. I integrate directly into your sales process through prospect transfers via Slack or your preferred communication platform, handling all funding details and providing daily updates to your team. I maintain a focused 3.5-hour daily shift during your peak sales hours and offer Calendly scheduling for off-shift consultations, ensuring convenience for your prospects throughout the funding process.</p>
+            <p>I work as a performance-based contractor, earning compensation only when your prospects successfully get funded. I integrate directly into your sales process with prospect transfers through your preferred communication platform, handling all funding details and providing daily updates to your team. I maintain a focused 3.5-hour daily shift during your peak sales hours and offer Calendly scheduling for off-shift consultations, ensuring convenience for your prospects throughout the funding process.</p>
           </div>
         </div>
       </section>
