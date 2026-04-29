@@ -489,6 +489,8 @@ body {
   border-radius: 0.75rem;
   box-shadow: var(--shadow);
   border: 3px solid var(--accent);
+  image-rendering: auto;
+  image-rendering: crisp-edges;
 }
 
 .about-text {
