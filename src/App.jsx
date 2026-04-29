@@ -329,8 +329,8 @@ function App() {
           <p className="section-subtitle">Performance-based pricing aligned with your success</p>
           
           <div className="compensation-card">
-            <h3>4% of Completed Product Purchase</h3>
-            <p>I get paid when your prospect gets funded and completes the purchase</p>
+            <h3>4% Commission on Completed Product Purchase</h3>
+            <p>Earned upon successful prospect funding and purchase completion</p>
             
             <div className="compensation-features">
               <div className="feature">
