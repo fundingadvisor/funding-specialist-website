@@ -399,10 +399,10 @@ function App() {
         </div>
       </section>
 
-      {/* Partnership Requirements Section */}
+      {/* What to Expect Section */}
       <section className="section requirements-section">
         <div className="container">
-          <h2>Partnership Requirements</h2>
+          <h2>What to Expect</h2>
           <div className="requirements-grid">
             <div className="requirement-card">
               <h3>Lead Volume</h3>
