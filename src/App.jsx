@@ -35,7 +35,7 @@ function App() {
     },
     {
       title: "Seamless Sales Integration",
-      description: "Hot transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there and provide daily updates on the funding progress back to the sales rep"
+      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there and provide daily updates on the funding progress back to the sales rep"
     },
     {
       title: "End-to-End Support",
@@ -66,7 +66,7 @@ function App() {
     {
       number: "1",
       title: "Prospect Transfer",
-      description: "Sales rep hands off prospect via Slack or Skype or similar application with Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
+      description: "Sales rep transfers prospect via Slack, Skype, or your preferred platform (Prospect Transfer), providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
     },
     {
       number: "2",
@@ -414,7 +414,7 @@ function App() {
             </div>
             <div className="requirement-card">
               <h3>Communication</h3>
-              <p><strong>Hot Transfers or Cold Transfers:</strong> Depending on the communication style of your company</p>
+              <p><strong>Prospect Transfers:</strong> Via your preferred communication platform</p>
               <p><strong>Updates:</strong> Daily progress messages</p>
               <p><strong>Scheduling:</strong> Calendly calendar</p>
             </div>
@@ -435,7 +435,7 @@ function App() {
           <div className="faq-grid">
             <div className="faq-item">
               <h4>How much does this cost?</h4>
-              <p>Nothing upfront. I only get paid 4% of the completed product purchase when a prospect successfully gets funded. If they don't get funded, you don't pay anything.</p>
+              <p>Nothing upfront. Compensation is 4% of the completed product purchase after funding. If a prospect doesn't get funded, you don't pay anything.</p>
             </div>
             <div className="faq-item">
               <h4>What if a prospect doesn't qualify?</h4>
