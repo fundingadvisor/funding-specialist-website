@@ -298,7 +298,7 @@ function App() {
             ))}
           </div>
 
-          <div className="key-metrics">
+          <div style={{ marginTop: '3rem' }} className="key-metrics">
             <h3>Key Metrics</h3>
             <div className="metrics-grid">
               <div className="metric">
