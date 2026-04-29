@@ -270,11 +270,11 @@ function App() {
             {specializations.map((spec, index) => (
               <div key={index} className="specialization-card">
                 <h3>{spec.category}</h3>
-                <ul>
+                <div className="specialization-items">
                   {spec.items.map((item, itemIndex) => (
-                    <li key={itemIndex}>{item}</li>
+                    <p key={itemIndex}>{item}</p>
                   ))}
-                </ul>
+                </div>
               </div>
             ))}
           </div>
