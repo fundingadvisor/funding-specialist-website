@@ -21,6 +21,30 @@ function App() {
     }
   }, [state.succeeded])
 
+  useEffect(() => {
+    const handleAnchorClick = () => {
+      const hash = window.location.hash
+      if (hash) {
+        setTimeout(() => {
+          const element = document.querySelector(hash)
+          if (element) {
+            const navHeight = 80
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY
+            window.scrollTo({
+              top: elementPosition - navHeight,
+              behavior: 'smooth'
+            })
+          }
+        }, 0)
+      }
+    }
+
+    window.addEventListener('hashchange', handleAnchorClick)
+    handleAnchorClick()
+
+    return () => window.removeEventListener('hashchange', handleAnchorClick)
+  }, [])
+
   const stats = [
     { number: "5,000+", label: "Clients Funded", icon: "👥" },
     { number: "5+", label: "Years Experience", icon: "⭐" },
