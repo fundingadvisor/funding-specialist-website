@@ -66,7 +66,7 @@ function App() {
     {
       number: "1",
       title: "Prospect Transfer",
-      description: "Sales rep hands off prospect via Slack or Skype or similar application with contact information, Credit Score, Personal Yearly Income, and desired package amount"
+      description: "Sales rep hands off prospect via Slack or Skype or similar application with Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
     },
     {
       number: "2",
