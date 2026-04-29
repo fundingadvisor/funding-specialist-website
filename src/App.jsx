@@ -65,7 +65,7 @@ function App() {
   const processSteps = [
     {
       number: "1",
-      title: "Hot Transfer",
+      title: "Prospect Transfer",
       description: "Sales rep hands off prospect via Slack or Skype or similar application with contact information, Credit Score, Personal Yearly Income, and desired package amount"
     },
     {
@@ -285,7 +285,7 @@ function App() {
       <section id="process" className="section process-section">
         <div className="container">
           <h2>How It Works</h2>
-          <p className="section-subtitle">A seamless 6-step process from hot transfer to funded client</p>
+          <p className="section-subtitle">A seamless 6-step process from prospect transfer to funded client</p>
           
           <div className="process-steps">
             {processSteps.map((step, index) => (
@@ -303,8 +303,8 @@ function App() {
             <div className="metrics-grid">
               <div className="metric">
                 <h4>Average Funding Time</h4>
-                <p className="metric-value">5-7 Days</p>
-                <p className="metric-desc">Personal loans (without complications)</p>
+                <p className="metric-value">Personal Loans: 5-7 Days</p>
+                <p className="metric-desc">0% Credit Cards: 7-9 Days</p>
               </div>
               <div className="metric">
                 <h4>Initial Consultation</h4>
@@ -426,7 +426,7 @@ function App() {
               <h3>Availability</h3>
               <p><strong>Primary Shift:</strong> 3.5 hours daily</p>
               <p><strong>Off-Shift:</strong> Calendly scheduling</p>
-              <p><strong>Flexibility:</strong> Multiple companies simultaneously</p>
+              <p><strong>Flexibility:</strong> Willing to work out schedules most convenient for the team</p>
             </div>
           </div>
         </div>
@@ -449,10 +449,7 @@ function App() {
               <h4>How long does funding take?</h4>
               <p>Average 5 days for personal loans. Credit cards take 7+ days minimum. Timeline depends on lender requirements and credit profile complexity.</p>
             </div>
-            <div className="faq-item">
-              <h4>Do you work exclusively with one company?</h4>
-              <p>No, I work with multiple companies simultaneously, depending on lead flow. This maintains consistent availability and volume.</p>
-            </div>
+
             <div className="faq-item">
               <h4>What if a prospect wants to fund more than the program cost?</h4>
               <p>That's common. Prospects often want extra for advertising or resources. My commission is based on the amount actually used for the program purchase.</p>
