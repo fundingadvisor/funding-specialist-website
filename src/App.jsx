@@ -384,7 +384,7 @@ function App() {
       {/* Partnership Benefits Section */}
       <section id="benefits" className="section benefits-section">
         <div className="container">
-          <h2>Key Advantages</h2>
+          <h2>Key Benefits</h2>
           <p className="section-subtitle">Why companies choose to work with an independent funding specialist</p>
           
           <div className="benefits-grid">
