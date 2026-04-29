@@ -439,7 +439,7 @@ function App() {
             </div>
             <div className="faq-item">
               <h4>What if a prospect doesn't qualify?</h4>
-              <p>I work with all credit profiles, including challenging credit situations, to identify creative solutions. If a prospect doesn't qualify, I'll communicate immediately so you can discuss alternatives.
+              <p>I work with all credit profiles, including challenging credit situations, to identify creative solutions. If a prospect doesn't qualify, I'll communicate immediately so you can discuss alternatives.</p>
             </div>
             <div className="faq-item">
               <h4>How long does funding take?</h4>
