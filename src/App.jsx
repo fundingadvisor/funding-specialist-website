@@ -351,7 +351,7 @@ function App() {
                 <span className="checkmark">✓</span>
                 <div>
                   <h4>Calculated on Purchase Amount</h4>
-                  <p>If prospect funds $15K but uses $10K for program, I get 4% of $10K</p>
+                  <p>Commission is calculated on the actual purchase amount used for the program. If a prospect funds $15K but uses $10K for your program, the commission is 4% of $10K.</p>
                 </div>
               </div>
               <div className="feature">
