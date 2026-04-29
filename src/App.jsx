@@ -35,7 +35,7 @@ function App() {
     },
     {
       title: "Seamless Sales Integration",
-      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there."
+      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there"
     },
     {
       title: "End-to-End Support",
@@ -66,7 +66,7 @@ function App() {
     {
       number: "1",
       title: "Prospect Transfer",
-      description: "Sales rep transfers prospect via Slack, Skype, or your preferred platform, providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
+      description: "Sales rep transfers prospect via your preferred platform, providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
     },
     {
       number: "2",
@@ -369,7 +369,7 @@ function App() {
       {/* Client Experience Section */}
       <section id="clients" className="section clients-section">
         <div className="container">
-          <h2>Client Funding Experience</h2>
+          <h2>Companies I've Worked With</h2>
           <p className="section-subtitle">High-Ticket Education, Coaching & Business Services</p>
           
           <div className="clients-grid">
