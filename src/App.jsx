@@ -304,7 +304,7 @@ function App() {
               <div className="metric">
                 <h4>Average Funding Time</h4>
                 <p className="metric-value">Personal Loans: 5-7 Days</p>
-                <p className="metric-desc">0% Credit Cards: 7-9 Days</p>
+                <p className="metric-desc">0% Credit Cards: 7 Days</p>
               </div>
               <div className="metric">
                 <h4>Initial Consultation</h4>
