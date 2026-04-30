@@ -943,6 +943,19 @@ body {
   font-size: 0.95rem;
 }
 
+.process-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.process-text p {
+  color: var(--text-dark);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
 /* Key Metrics */
 .key-metrics {
   margin-top: 1.5rem;

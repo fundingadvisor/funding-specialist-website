@@ -312,13 +312,12 @@ function App() {
           <h2>How It Works</h2>
           <p className="section-subtitle">Simple 5-step process</p>
           
-          <div className="process-steps">
-            {processSteps.map((step, index) => (
-              <div key={index} className="process-step">
-                <h3>{step.title}</h3>
-                <p>{step.description}</p>
-              </div>
-            ))}
+          <div className="process-text">
+            <p><strong>1. You send me a qualified prospect</strong></p>
+            <p><strong>2. I handle funding conversations</strong></p>
+            <p><strong>3. Client gets matched with options</strong></p>
+            <p><strong>4. They complete the purchase</strong></p>
+            <p><strong>5. I earn 4% commission only on success</strong></p>
           </div>
 
           <div className="key-metrics">
