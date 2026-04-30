@@ -306,8 +306,7 @@ function App() {
             <p><strong>4. They complete the purchase</strong></p>
             <p><strong>5. I earn 4% commission only on success</strong></p>
           </div>
-          
-          <p style={{marginTop: '1.5rem', fontStyle: 'italic', color: '#6b7280'}}>I work on a performance-based model with a 4% commission earned only when a client successfully secures funding and completes their purchase.</p>
+
 
           <div className="key-metrics">
             <h3>Key Metrics</h3>
