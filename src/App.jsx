@@ -111,43 +111,43 @@ function App() {
   const clients = [
     {
       name: "Sophie Howard",
-      description: "Amazon FBA and e-commerce education programs helping clients build and scale private label online businesses."
+      description: "E-commerce & Amazon FBA education"
     },
     {
       name: "Douglas James",
-      description: "Digital marketing and agency coaching programs focused on building and scaling online service-based businesses."
+      description: "Digital marketing & agency coaching"
     },
     {
       name: "Peter Sage",
-      description: "Personal development and transformation programs including high-ticket coaching, events, and mindset training."
+      description: "High-ticket personal development programs"
     },
     {
       name: "Adam Cherrington",
-      description: "Online business and affiliate marketing education programs teaching digital income and business creation strategies."
+      description: "Affiliate marketing education"
     },
     {
       name: "Robby Blanchard",
-      description: "Affiliate marketing training programs focused on paid advertising, funnels, and online sales systems (Commission Hero)."
+      description: "Paid ads & affiliate training (Commission Hero)"
     },
     {
       name: "Rick Melero",
-      description: "Financial education programs focused on wealth-building strategies and alternative financing methods (Micro Banking Method / HIS Capital)."
+      description: "Alternative finance education (Micro Banking Method)"
     },
     {
       name: "Cheryl Hunter",
-      description: "Personal development, media training, and coaching programs focused on confidence, communication, and transformation."
+      description: "Coaching & transformation programs"
     },
     {
       name: "Brendan Kane",
-      description: "Digital marketing and social media growth programs focused on audience building, viral content, and brand scaling."
+      description: "Digital growth & audience scaling programs"
     },
     {
       name: "Forex for Women",
-      description: "Forex trading education and mentorship programs led by Amanda Custer, Jemma Wilson, and Jenn Eusterwiemann, focused on teaching currency trading strategies."
+      description: "Forex trading education programs"
     },
     {
-      name: "Teo Vanyo – Stealth Agents",
-      description: "Virtual assistant staffing company providing outsourced administrative, marketing, and operational support to help businesses scale efficiently."
+      name: "Teo Vanyo (Stealth Agents)",
+      description: "Virtual assistant outsourcing company"
     }
   ]
 
