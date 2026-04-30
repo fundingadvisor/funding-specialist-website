@@ -263,16 +263,11 @@ function App() {
               </div>
             </div>
             
-            <h3>What I Do</h3>
-            <p>I help high-ticket coaching and digital education companies increase conversions by removing the payment barrier at the final stage of your sales process.</p>
-            <p>When a qualified prospect is ready to move forward but hesitant due to upfront cost, I step in to help them explore funding options so they can complete their purchase without delay.</p>
-            <p>My role is not to replace your sales team, but to support it by ensuring more of your existing leads turn into paying clients.</p>
-            
-            <h3>How I Work</h3>
-            <p>I operate as a performance-based funding partner, meaning I'm only compensated when a prospect successfully secures funding and completes their purchase.</p>
-            <p>I integrate directly into your existing sales process, working from qualified prospect transfers through your preferred communication platform. From there, I handle the full funding conversation, guide the application process, and keep your team updated with clear daily progress reports.</p>
-            <p>To align with your sales flow, I work during your peak hours and remain available for live handoffs. Outside of that window, prospects can book time with me directly through Calendly to keep the process moving without delays.</p>
-            <p>The goal is simple: remove friction at the payment stage, improve close rates, and help your team convert more of the leads you're already generating.</p>
+            <h3>What I do and How I work</h3>
+            <p>I partner with high-ticket coaching and digital education companies to increase conversions by removing payment friction at the final stage of the sales process.</p>
+            <p>When a qualified prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
+            <p>I work as a performance-based funding partner, meaning I'm only compensated when a client successfully secures funding and completes their purchase.</p>
+            <p>I integrate directly into your sales process, taking over from qualified prospect transfer through completion. This includes guiding the funding conversation, supporting the application process, and keeping your team updated with clear progress reports.</p>
           </div>
         </div>
       </section>
