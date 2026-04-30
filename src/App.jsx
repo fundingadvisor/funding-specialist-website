@@ -213,8 +213,8 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h2>Funding Support for High-Ticket Programs</h2>
-          <p>I work directly with coaching, education, and digital businesses to help qualified prospects secure funding at the point of purchase so they can complete enrollment without delay.</p>
+          <h2>Convert More Qualified Buyers at the Point of Sale</h2>
+          <p>I help prospects secure funding so they can complete their purchase without delay.</p>
           <div className="hero-stats">
             {stats.map((stat, index) => (
               <div key={index} className="hero-stat">
