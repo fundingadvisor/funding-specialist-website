@@ -365,24 +365,6 @@ function App() {
         </div>
       </section>
 
-      {/* Partnership Benefits Section */}
-      <section id="benefits" className="section benefits-section">
-        <div className="container">
-          <h2>Key Benefits</h2>
-          <p className="section-subtitle">Why companies choose to work with an independent funding specialist</p>
-          
-          <div className="benefits-grid">
-            {benefits.map((benefit, index) => (
-              <div key={index} className="benefit-card">
-                <div className="benefit-icon">✓</div>
-                <h3>{benefit.title}</h3>
-                <p>{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* What to Expect Section */}
       <section className="section requirements-section">
         <div className="container">
