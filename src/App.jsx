@@ -185,7 +185,13 @@ function App() {
   const handleStartPartnership = () => {
     const contactSection = document.getElementById('contact')
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' })
+      const navBar = document.querySelector('.navbar')
+      const navHeight = navBar ? navBar.offsetHeight + 20 : 100
+      const elementPosition = contactSection.getBoundingClientRect().top + window.scrollY
+      window.scrollTo({
+        top: elementPosition - navHeight,
+        behavior: 'smooth'
+      })
     }
   }
 
