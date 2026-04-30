@@ -238,8 +238,8 @@ function App() {
               <p><strong>You're already generating qualified buyers…but many still drop off at the payment stage.</strong></p>              <p style={{marginTop: '1rem', textAlign: 'center'}}>"I need time"</p>
               <p style={{textAlign: 'center'}}>"I can't afford it right now"</p>
               <p style={{textAlign: 'center'}}>"Let me think about it"</p>
-              <p style={{marginTop: '1rem'}}><strong>👉 These are NOT lost leads</strong></p>
-              <p><strong>👉 They are lost revenue opportunities</strong></p>
+              <p style={{marginTop: '1rem'}}><strong>👉 These are qualified buyers who don't convert immediately</strong></p>
+              <p><strong>👉 Not lost leads, but delayed revenue</strong></p>
             </div>
             <div className="arrow">→</div>
             <div className="solution-box" style={{marginBottom: '2rem'}}>
