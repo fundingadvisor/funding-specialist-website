@@ -262,7 +262,7 @@ function App() {
             </div>
             
             <h3>What I Do</h3>
-            <p>I help high-ticket companies convert more qualified prospects at the point of sale.</p>
+            <p>I help high-ticket coaching and digital education companies convert more qualified prospects at the point of purchase.</p>
             <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
           </div>
         </div>
