@@ -350,36 +350,6 @@ function App() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="section faq-section">
-        <div className="container">
-          <h2>Frequently Asked Questions</h2>
-          <div className="faq-grid">
-            <div className="faq-item">
-              <h4>How much does this cost?</h4>
-              <p>Nothing upfront. Compensation is 4% of the completed product purchase after funding. If a prospect doesn't get funded, you don't pay anything.</p>
-            </div>
-            <div className="faq-item">
-              <h4>What if a prospect doesn't qualify?</h4>
-              <p>I work with all credit profiles, including challenging credit situations, to identify creative solutions. If a prospect doesn't qualify, I'll communicate immediately so you can discuss alternatives.</p>
-            </div>
-            <div className="faq-item">
-              <h4>How long does funding take?</h4>
-              <p>Average 5 days for personal loans. Credit cards take 7+ days minimum. Timeline depends on lender requirements and credit profile complexity.</p>
-            </div>
-
-            <div className="faq-item">
-              <h4>What if a prospect wants to fund more than the program cost?</h4>
-              <p>That's common. Prospects often want extra for advertising or resources. My commission is based on the amount actually used for the program purchase.</p>
-            </div>
-            <div className="faq-item">
-              <h4>Are you compliant?</h4>
-              <p>Yes. I don't record calls, have no lender affiliations, and follow all applicable lending regulations.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="section contact-section">
         <div className="container">
