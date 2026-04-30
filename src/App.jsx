@@ -350,33 +350,6 @@ function App() {
         </div>
       </section>
 
-      {/* What to Expect Section */}
-      <section className="section requirements-section">
-        <div className="container">
-          <h2>What to Expect</h2>
-          <div className="requirements-grid">
-            <div className="requirement-card" style={{ marginBottom: '1.5rem' }}>
-              <h3>Lead Volume</h3>
-              <p><strong>Minimum:</strong> 2-5 prospects/week</p>
-              <p><strong>Optimal:</strong> 10-20+ prospects/week</p>
-              <p><strong>Capacity:</strong> 20-30+ prospects/week</p>
-            </div>
-            <div className="requirement-card" style={{ marginBottom: '1.5rem' }}>
-              <h3>Communication</h3>
-              <p><strong>Prospect Transfers:</strong> Via your preferred platform</p>
-              <p><strong>Updates:</strong> Daily progress messages</p>
-              <p><strong>Scheduling:</strong> Calendly calendar</p>
-            </div>
-            <div className="requirement-card">
-              <h3>Availability</h3>
-              <p><strong>Primary Shift:</strong> 3.5 hours daily</p>
-              <p><strong>Off-Shift:</strong> Calendly scheduling</p>
-              <p><strong>Flexibility:</strong> Scheduling for client/team convenience</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="section faq-section">
         <div className="container">
