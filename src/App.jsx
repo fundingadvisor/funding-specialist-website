@@ -319,6 +319,8 @@ function App() {
             <p><strong>4. They complete the purchase</strong></p>
             <p><strong>5. I earn 4% commission only on success</strong></p>
           </div>
+          
+          <p style={{marginTop: '1.5rem', fontStyle: 'italic', color: '#6b7280'}}>I work on a performance-based model with a 4% commission earned only when a client successfully secures funding and completes their purchase.</p>
 
           <div className="key-metrics">
             <h3>Key Metrics</h3>
@@ -344,49 +346,7 @@ function App() {
         </div>
       </section>
 
-      {/* Compensation Section */}
-      <section className="section compensation-section">
-        <div className="container">
-          <h2>Compensation Model</h2>
-          <p className="section-subtitle">Performance-based pricing aligned with your success</p>
-          
-          <div className="compensation-card">
-            <h3>4% Commission on Completed Product Purchase</h3>
-            <p>Earned upon successful prospect funding and purchase completion</p>
-            
-            <div className="compensation-features">
-              <div className="feature">
-                <span className="checkmark">✓</span>
-                <div>
-                  <h4>No Upfront Fees</h4>
-                  <p>Zero cost to start the partnership</p>
-                </div>
-              </div>
-              <div className="feature">
-                <span className="checkmark">✓</span>
-                <div>
-                  <h4>Performance-Based</h4>
-                  <p>I succeed when your prospects succeed</p>
-                </div>
-              </div>
-              <div className="feature">
-                <span className="checkmark">✓</span>
-                <div>
-                  <h4>Calculated on Purchase Amount</h4>
-                  <p>Calculated based on actual program purchase amount. Example: $15K funded, $10K used = 4% of $10K.</p>
-                </div>
-              </div>
-              <div className="feature">
-                <span className="checkmark">✓</span>
-                <div>
-                  <h4>No Payment if Not Funded</h4>
-                  <p>Zero risk to your company</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Client Experience Section */}
       <section id="clients" className="section clients-section">
