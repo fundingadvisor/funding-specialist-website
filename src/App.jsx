@@ -55,20 +55,20 @@ function App() {
 
   const services = [
     {
-      title: "Expert Credit Evaluation",
-      description: "Evaluate each prospect's credit profile and match them with the best lender options (5-6 vetted online lenders + 0% credit cards) to maximize approval odds"
+      title: "Credit & Funding Matching",
+      description: "I evaluate each prospect's profile and match them with vetted lending options, including online lenders and 0% credit card solutions where applicable."
     },
     {
-      title: "Seamless Sales Integration",
-      description: "Prospect transfers from your sales team via Slack (or whatever communication process your company currently uses). I take the conversation from there"
+      title: "Sales Process Integration",
+      description: "I take over the funding conversation after handoff from your sales team through your existing communication channels."
     },
     {
       title: "End-to-End Support",
-      description: "Daily follow-up with prospects until funded, with daily updates on progress back to the sales rep. I can even assist with product purchases once funding is received"
+      description: "I guide prospects through the funding process, provide ongoing follow-up until completion, and keep your team updated on progress."
     },
     {
-      title: "Flexible Availability",
-      description: "3.5-hour daily shift during your peak sales hours, plus Calendly scheduling for off-shift consultations"
+      title: "Dedicated Availability",
+      description: "Available during peak sales hours with additional flexibility for scheduled consultations when needed."
     }
   ]
 
@@ -277,7 +277,7 @@ function App() {
       <section id="services" className="section services-section">
         <div className="container">
           <h2>What I Provide</h2>
-          <p className="section-subtitle">Expert funding support designed to integrate seamlessly into your sales process</p>
+          <p className="section-subtitle">Expert funding support integrated directly into your sales process to help more qualified prospects complete their purchase.</p>
           
           <div className="services-grid">
             {services.map((service, index) => (
