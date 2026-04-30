@@ -272,7 +272,6 @@ function App() {
       <section id="services" className="section services-section">
         <div className="container">
           <h2>What I Provide</h2>
-          <p className="section-subtitle">Expert funding support integrated directly into your sales process to help more qualified prospects complete their purchase.</p>
           
           <div className="services-grid">
             {services.map((service, index) => (
