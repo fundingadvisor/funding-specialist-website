@@ -90,33 +90,28 @@ function App() {
   const processSteps = [
     {
       number: "1",
-      title: "Prospect Transfer",
-      description: "Sales rep transfers prospect via your preferred platform, providing Contact Information, Credit Score, Personal Yearly Income, and Desired Package Amount"
+      title: "You send me a qualified prospect",
+      description: ""
     },
     {
       number: "2",
-      title: "Initial Consultation",
-      description: "20-30 min to establish credit profile and begin the funding process if qualified"
+      title: "I handle funding conversations",
+      description: ""
     },
     {
       number: "3",
-      title: "Lender Matching",
-      description: "Match prospect with best lender based on credit profile and income level"
+      title: "Client gets matched with options",
+      description: ""
     },
     {
       number: "4",
-      title: "Application Support",
-      description: "Guide prospect through complete application process"
+      title: "They complete the purchase",
+      description: ""
     },
     {
       number: "5",
-      title: "Daily Follow-Up",
-      description: "Stay in touch with prospect and provide funding progress updates to your team"
-    },
-    {
-      number: "6",
-      title: "Funding & Beyond",
-      description: "Confirm funding received and assist with product purchase if needed"
+      title: "I earn 4% commission only on success",
+      description: ""
     }
   ]
 
@@ -220,8 +215,8 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h2>Convert More Prospects With<br/>Expert Funding Support</h2>
-          <p>Remove the price barrier for qualified prospects through accessible personal loans and credit card financing</p>
+          <h2>Helping High-Ticket Programs Close More Deals by Removing the Payment Barrier</h2>
+          <p>I partner with coaching, education, and digital businesses to help qualified prospects secure funding so they can move forward without delay.</p>
           <div className="hero-stats">
             {stats.map((stat, index) => (
               <div key={index} className="hero-stat">
@@ -231,7 +226,7 @@ function App() {
               </div>
             ))}
           </div>
-          <button className="cta-button" onClick={handleStartPartnership}>Start Partnership</button>
+          <button className="cta-button" onClick={handleStartPartnership}>Book a 15-minute partnership call</button>
         </div>
       </section>
 
@@ -242,12 +237,17 @@ function App() {
           <div className="problem-solution">
             <div className="problem-box">
               <h3>The Problem</h3>
-              <p>High-ticket programs lose qualified prospects at the final stage because of one barrier: <strong>upfront cost</strong>. Prospects love your program, believe in the value, and are ready to commit—but they don't have the cash available right now.</p>
+              <p><strong>You're already generating qualified buyers…but many still drop off at the payment stage.</strong></p>
+              <p style={{marginTop: '1rem', textAlign: 'left'}}>"I need time"</p>
+              <p style={{textAlign: 'left'}}>"I can't afford it right now"</p>
+              <p style={{textAlign: 'left'}}>"Let me think about it"</p>
+              <p style={{marginTop: '1rem'}}><strong>👉 These are NOT lost leads</strong></p>
+              <p><strong>👉 They are lost revenue opportunities</strong></p>
             </div>
             <div className="arrow">→</div>
             <div className="solution-box">
               <h3>The Solution</h3>
-              <p>An independent funding specialist who integrates directly into your sales process, providing expert guidance to help prospects access personal loans and credit cards. Convert qualified buyers who would otherwise walk away.</p>
+              <p>I step in at the final stage of your sales process and help those clients secure funding options so they can move forward immediately.</p>
             </div>
           </div>
 
@@ -310,7 +310,7 @@ function App() {
       <section id="process" className="section process-section">
         <div className="container">
           <h2>How It Works</h2>
-          <p className="section-subtitle">A seamless 6-step process from prospect transfer to funded client</p>
+          <p className="section-subtitle">Simple 5-step process</p>
           
           <div className="process-steps">
             {processSteps.map((step, index) => (

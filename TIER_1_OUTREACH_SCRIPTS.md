@@ -24,76 +24,59 @@ These scripts are specifically designed for companies you've previously worked w
 
 ---
 
-### Email Body - Version 1 (Warm, Familiar Tone)
+### Email Body - Version 1 (Warm, Direct Tone)
 
-**Subject: I'm Now Available as an Independent Funding Specialist**
+**Subject: quick reconnection**
 
 Hi [First Name],
 
-I hope you're doing well! I wanted to reach out because I've really enjoyed working with the [Company Name] team, and I'm impressed with what you continue to build.
+I wanted to reach out as I was thinking about my time supporting your team at [Company Name].
 
-I'm writing because I'm now offering independent funding specialist services directly to companies like yours. Since I'm already familiar with your sales process and have successfully funded your clients, I thought it made sense to explore working together in this new capacity.
+I worked behind the scenes helping your clients secure funding, so while we may not have interacted directly, you may have seen my name in the sales or handoff channels.
 
-Here's what's changed for you:
+I'm now working independently and partnering directly with high-ticket programs again, and [Company Name] was one of the first that came to mind.
 
-**Better for Your Business:** As an independent contractor, I can offer more flexible terms and direct integration into your sales process. No more overhead or team coordination—just direct funding support.
+Since I already understand your pricing, client profile, and sales flow, I can plug in quickly and help your team convert more of the prospects who are ready but hesitate at payment.
 
-**Proven Track Record:** You already know the quality of my work. I've successfully funded your clients and understand exactly how your program works.
+I handle the full funding process end-to-end and stay with the client until they're funded, which keeps things simple for your team and improves the overall experience.
 
-**Same Performance-Based Model:** I work on a 4% performance basis—compensation is earned only when a prospect gets funded. Zero upfront cost, zero risk.
+I work on a performance basis (4%), so there's no cost unless a deal closes.
 
-**Scalability:** I can now dedicate more focused attention to your company's needs, handling 20-30+ prospects per week.
+I've funded 5,000+ clients across similar programs, so I'm very familiar with where deals tend to stall.
 
-Here's how it works:
+Would it make sense to reconnect for 10–15 minutes and see if this could support your team again?
 
-Your sales rep transfers a qualified prospect to me through your preferred communication platform. I spend 20-30 minutes understanding their financial situation, match them with the best lender from my network of 5-6 vetted online lenders, guide them through the application, and stay with them daily until they're funded. You get daily updates, and my compensation is 4% of the completed product purchase.
-
-I'd love to discuss how we can scale your funding support. Would you be open to a quick 15-minute call this week to explore this?
-
-Check out my website for more details: https://funding-specialist-website.vercel.app
-
-Looking forward to reconnecting!
-
-Best regards,  
-Lynne Faulkner  
-Independent Funding Specialist  
-📧 fundingwithlynne@gmail.com  
-🌐 https://funding-specialist-website.vercel.app
+Best,
+Lynne
+📧 fundingwithlynne@gmail.com
 
 ---
 
 ### Email Body - Version 2 (More Formal, Business-Focused)
 
-**Subject: Partnership Opportunity - Independent Funding Specialist Services**
+**Subject: quick reconnection**
 
 Hi [First Name],
 
-I hope this message finds you well. I'm reaching out with an opportunity that I believe could be valuable for [Company Name].
+I wanted to reach out as I was thinking about my time supporting your team at [Company Name].
 
-I'm now offering independent funding specialist services, and I wanted to discuss how we might work together. Given my previous experience with your organization and proven success funding your clients, I believe I'm uniquely positioned to provide dedicated support to your company.
+I worked behind the scenes helping your clients secure funding, so while we may not have interacted directly, you may have seen my name in the sales or handoff channels.
 
-**What I Offer:**
-- Performance-based compensation (4% commission on completed purchases only)
-- Direct integration into your sales process
-- Daily prospect updates and status reporting
-- Proven track record with your client base
-- Capacity to handle 20-30+ prospects per week
-- Access to network of 5-6 vetted online lenders
+I'm now working independently and partnering directly with high-ticket programs again, and [Company Name] was one of the first that came to mind.
 
-**Why This Works for You:**
-- No upfront costs or long-term contracts
-- Familiar with your sales process and client profiles
-- Already understand your program requirements
-- Can scale funding support without hiring overhead
-- Performance-based means I succeed when your prospects succeed
+Since I already understand your pricing, client profile, and sales flow, I can plug in quickly and help your team convert more of the prospects who are ready but hesitate at payment.
 
-I'd welcome the opportunity to discuss how this could work for your company. Would you have 15 minutes for a call this week?
+I handle the full funding process end-to-end and stay with the client until they're funded, which keeps things simple for your team and improves the overall experience.
 
-Best regards,  
-Lynne Faulkner  
-Independent Funding Specialist  
-📧 fundingwithlynne@gmail.com  
-🌐 https://funding-specialist-website.vercel.app
+I work on a performance basis (4%), so there's no cost unless a deal closes.
+
+I've funded 5,000+ clients across similar programs, so I'm very familiar with where deals tend to stall.
+
+Would it make sense to reconnect for 10–15 minutes and see if this could support your team again?
+
+Best,
+Lynne
+📧 fundingwithlynne@gmail.com
 
 ---
 

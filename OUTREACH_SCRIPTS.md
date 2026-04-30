@@ -26,36 +26,25 @@ This guide provides you with ready-to-use scripts for reaching out to high-ticke
 
 ---
 
-**Subject: Remove the Price Barrier for Your Qualified Prospects**
+**Subject: Quick Question About Your Prospects**
 
 Hi [First Name],
 
-I've been following [Company Name] and I'm impressed with the quality of your [coaching program/education/digital marketing] offering. I can tell you attract serious, committed prospects.
+Quick question, how often do your prospects want to move forward but hesitate when it comes to payment?
 
-Here's the challenge I see: many of your most qualified prospects likely drop off at one point—when they realize they need to pay the full program cost upfront. They love your program, they believe in the value, but they don't have the cash available right now.
+I work with high-ticket coaching programs to help those clients secure personal funding so they can move forward immediately instead of dropping off.
 
-I'm an independent funding specialist, and I've successfully funded over 5,000 clients for companies just like yours. I work with high-ticket coaching, e-commerce education, and digital marketing programs to help qualified prospects access personal loans and 0% credit cards—removing that final price barrier.
+Over the past 5+ years, I've helped fund 5,000+ clients by guiding them to the best options based on their situation (personal loans, 0% cards, or a combination). I stay with them through the process until they're funded, which makes it easy for your team and improves the overall experience.
 
-**Here's how it works:**
+The goal is simple: help you close more of the deals you're already generating without discounting or adding pressure.
 
-I integrate directly into your sales process. Your sales rep hands off the prospect to me with prospect transfers through your preferred communication platform, and I take it from there. I spend 20-30 minutes understanding their financial situation, match them with the right lender from my network of 5-6 vetted online lenders, guide them through the application, and stay with them daily until they're funded. Then I provide your team with daily updates so you know exactly where each prospect stands.
+I work on a performance basis (4%), so there's no cost unless a deal closes.
 
-**The best part? My compensation is 4% of the completed product purchase when the prospect gets funded.** Zero upfront cost, zero risk to you. I succeed when your prospects succeed.
+Would it make sense to show you how this could plug into your current sales process?
 
-**The results speak for themselves:**
-- 5,000+ clients successfully funded
-- Average funding timeline: 5 days
-- Works with all credit profiles (even challenging ones)
-- Capacity to handle 20-30+ prospects per week
-
-I'd love to discuss how we can work together to convert more of your qualified prospects. Would you be open to a quick 15-minute call this week to explore if this could be a fit?
-
-Check out my website to learn more: [https://funding-specialist-website.vercel.app](https://funding-specialist-website.vercel.app)
-
-Best regards,  
-Lynne Faulkner  
-Independent Funding Specialist  
-📧 contact@fundingspecialist.com
+Best,
+Lynne
+📧 fundingwithlynne@gmail.com
 
 ---
 
@@ -82,7 +71,7 @@ Thanks for connecting! I wanted to reach out because I think there's a real oppo
 
 I work with high-ticket programs to solve a specific problem: qualified prospects who are ready to commit but don't have the cash available upfront. I've helped 5,000+ clients access funding through a network of vetted lenders, and I work on a performance basis—my compensation is 4% of the completed purchase when a prospect gets funded.
 
-The process is simple: your sales rep hands off the prospect to me through your preferred communication platform, I handle all the funding details, provide daily updates, and stay with them until they're funded. Average timeline is 5 days.
+The process is simple: Your sales rep transfers a qualified prospect to me through your preferred communication platform, I handle all the funding details, provide daily updates, and stay with them until they're funded. I even support the fulfillment process if needed. Average timeline is 5 days.
 
 I'd love to have a quick conversation about how this could work for your program. Are you open to a brief call this week?
 
@@ -106,7 +95,7 @@ Lynne
 
 ### If They Say "Tell Me More"
 
-"Perfect. Here's the quick version: Your sales rep hands off a qualified prospect to me through your preferred communication platform. I spend 20-30 minutes with them, understand their financial situation, match them with the right lender from my network, guide them through the application, and then I stay in touch daily until they're funded. Your team gets daily updates so you know exactly where they stand. When they're funded, I provide your team with confirmation, and my compensation is 4% of the completed product purchase. That's it. Zero upfront cost, zero risk."
+"Perfect. Here's the quick version: Your sales rep transfers a qualified prospect to me through your preferred communication platform. I spend 20-30 minutes with them, understand their financial situation, match them with the right lender from my network of 5-6 vetted online lenders, guide them through the application, and then I stay in touch daily until they're funded. Your team gets daily updates so you know exactly where they stand. When they're funded, I provide your team with confirmation, and my compensation is 4% of the completed product purchase. I even support the fulfillment process if needed. That's it. Zero upfront cost, zero risk."
 
 ### If They Ask "How Much Does This Cost?"
 

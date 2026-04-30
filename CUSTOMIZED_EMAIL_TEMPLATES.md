@@ -40,7 +40,7 @@ My focus is always on finding clients the most favorable funding options whether
 **Performance-Based Partnership**
 I work on a 4% commission basis where compensation is earned only when a prospect successfully gets funded and completes their purchase. Zero upfront cost, zero risk to you. My success is directly tied to your success.
 
-Here's how it would work, your sales team transfers a qualified prospect to me through your preferred communication platform. I handle the entire funding conversation and find them the best available options, stay in touch until they're funded, and even support the fulfillment process if needed. You get daily updates, and I provide the same level of expertise and care you've experienced before.
+Here's how it works: your sales team transfers a qualified prospect to me through your preferred communication platform. I handle the entire funding conversation and find them the best available options, stay in touch until they're funded, and even support the fulfillment process if needed. You get daily updates, and I provide the same level of expertise and care you've experienced before.
 
 I'd love to discuss how we can scale your conversions together. Would you be open to a brief 15-minute call this week to explore this?
 
@@ -78,7 +78,7 @@ I'm now offering independent funding specialist services, and I think this could
 
 **Zero risk to you.** Performance-based compensation at 4% commission means you only pay when it works.
 
-The process is simple, your sales team transfers a qualified prospect to me, I handle the entire funding process, and you get daily updates. I even support the fulfillment side if needed.
+The process is simple: your sales team transfers a qualified prospect to me through your preferred communication platform, I handle the entire funding process, and you get daily updates. I even support the fulfillment process if needed.
 
 Would you be open to a quick call this week to discuss how this could work for [Company Name]?
 
