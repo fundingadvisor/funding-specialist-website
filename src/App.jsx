@@ -259,7 +259,8 @@ function App() {
               <div className="about-text">
                 <h3>Who I Am</h3>
                 <p><strong>Lynne Faulkner</strong></p>
-                <p>I'm an independent funding specialist contractor with 5+ years of proven success helping high-ticket coaching, e-commerce education, and digital marketing companies remove financial barriers for their clients. I've successfully funded over 5,000 clients by matching them with the right lenders and guiding them through the entire funding process.</p>
+                <p>I'm an independent funding specialist contractor with over 5 years of experience supporting high-ticket coaching, e-commerce education, and digital marketing companies.</p>
+                <p>I've worked with thousands of clients across these industries and understand how funding friction impacts conversion at the final stage of the sales process.</p>
               </div>
             </div>
             
