@@ -260,16 +260,15 @@ function App() {
               <div className="about-text">
                 <h3>Who I Am</h3>
                 <p><strong>Lynne Faulkner</strong></p>
-                <p>I'm an independent funding specialist contractor with over 5 years of experience supporting high-ticket coaching, e-commerce education, and digital marketing companies.</p>
-                <p>I've worked with thousands of clients across these industries and understand how funding friction impacts conversion at the final stage of the sales process.</p>
+                <p>I'm an independent funding specialist contractor with over 5 years of experience working with high-ticket coaching, e-commerce education, and digital marketing companies.</p>
+                <p>I've supported thousands of clients across these industries and understand exactly how payment friction impacts conversion at the final stage of the sales process.</p>
               </div>
             </div>
             
             <h3>What I Do</h3>
-            <p>I partner with high-ticket coaching and digital education companies to increase conversions.</p>
-            <p>When a qualified prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
-
-            <p>I integrate directly into your sales process, taking over from qualified prospect transfer through completion. This includes guiding the funding conversation, supporting the application process, and keeping your team updated with clear progress reports.</p>
+            <p>I help high-ticket companies convert more qualified prospects at the point of sale.</p>
+            <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
+            <p>I plug directly into your sales process, handling the funding conversation from qualified prospect handoff through completion, including application support and clear progress updates to your team.</p>
           </div>
         </div>
       </section>
