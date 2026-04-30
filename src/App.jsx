@@ -263,10 +263,10 @@ function App() {
               </div>
             </div>
             
-            <h3>What I do and How I work</h3>
+            <h3>What I Do</h3>
             <p>I partner with high-ticket coaching and digital education companies to increase conversions.</p>
             <p>When a qualified prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
-            <p>I work as a performance-based funding partner, meaning I'm only compensated when a client successfully secures funding and completes their purchase.</p>
+
             <p>I integrate directly into your sales process, taking over from qualified prospect transfer through completion. This includes guiding the funding conversation, supporting the application process, and keeping your team updated with clear progress reports.</p>
           </div>
         </div>
