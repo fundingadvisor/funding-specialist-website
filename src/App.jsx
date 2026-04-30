@@ -264,7 +264,6 @@ function App() {
             <h3>What I Do</h3>
             <p>I help high-ticket companies convert more qualified prospects at the point of sale.</p>
             <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
-            <p>I plug directly into your sales process, handling the funding conversation from qualified prospect handoff through completion, including application support and clear progress updates to your team.</p>
           </div>
         </div>
       </section>
