@@ -263,8 +263,16 @@ function App() {
               </div>
             </div>
             
+            <h3>What I Do</h3>
+            <p>I help high-ticket coaching and digital education companies increase conversions by removing the payment barrier at the final stage of your sales process.</p>
+            <p>When a qualified prospect is ready to move forward but hesitant due to upfront cost, I step in to help them explore funding options so they can complete their purchase without delay.</p>
+            <p>My role is not to replace your sales team, but to support it by ensuring more of your existing leads turn into paying clients.</p>
+            
             <h3>How I Work</h3>
-            <p>I work as a performance-based contractor, earning compensation only when your prospects successfully get funded. I integrate directly into your sales process with prospect transfers through your preferred communication platform, handling all funding details and providing daily updates to your team. I maintain a focused 3.5-hour daily shift during your peak sales hours and offer Calendly scheduling for off-shift consultations, ensuring convenience for your prospects throughout the funding process.</p>
+            <p>I operate as a performance-based funding partner, meaning I'm only compensated when a prospect successfully secures funding and completes their purchase.</p>
+            <p>I integrate directly into your existing sales process, working from qualified prospect transfers through your preferred communication platform. From there, I handle the full funding conversation, guide the application process, and keep your team updated with clear daily progress reports.</p>
+            <p>To align with your sales flow, I work during your peak hours and remain available for live handoffs. Outside of that window, prospects can book time with me directly through Calendly to keep the process moving without delays.</p>
+            <p>The goal is simple: remove friction at the payment stage, improve close rates, and help your team convert more of the leads you're already generating.</p>
           </div>
         </div>
       </section>
