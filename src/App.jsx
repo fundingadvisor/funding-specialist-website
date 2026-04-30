@@ -291,24 +291,7 @@ function App() {
         </div>
       </section>
 
-      {/* Specializations Section */}
-      <section className="section specializations-section">
-        <div className="container">
-          <h2>Specializations</h2>
-          <div className="specializations-grid">
-            {specializations.map((spec, index) => (
-              <div key={index} className="specialization-card">
-                <h3>{spec.category}</h3>
-                <div className="specialization-items">
-                  {spec.items.map((item, itemIndex) => (
-                    <p key={itemIndex}>{item}</p>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Process Section */}
       <section id="process" className="section process-section">
