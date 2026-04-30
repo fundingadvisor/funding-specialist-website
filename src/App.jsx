@@ -65,10 +65,6 @@ function App() {
     {
       title: "End-to-End Support",
       description: "I guide prospects through the funding process, provide ongoing follow-up until completion, and keep your team updated on progress."
-    },
-    {
-      title: "Dedicated Availability",
-      description: "Available during peak sales hours with additional flexibility for scheduled consultations when needed."
     }
   ]
 
