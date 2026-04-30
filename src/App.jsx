@@ -237,15 +237,14 @@ function App() {
           <div className="problem-solution">
             <div className="problem-box">
               <h3>The Problem</h3>
-              <p><strong>You're already generating qualified buyers…but many still drop off at the payment stage.</strong></p>
-              <p style={{marginTop: '1rem', textAlign: 'left'}}>"I need time"</p>
-              <p style={{textAlign: 'left'}}>"I can't afford it right now"</p>
-              <p style={{textAlign: 'left'}}>"Let me think about it"</p>
+              <p><strong>You're already generating qualified buyers…but many still drop off at the payment stage.</strong></p>              <p style={{marginTop: '1rem', textAlign: 'center'}}>"I need time"</p>
+              <p style={{textAlign: 'center'}}>"I can't afford it right now"</p>
+              <p style={{textAlign: 'center'}}>"Let me think about it"</p>
               <p style={{marginTop: '1rem'}}><strong>👉 These are NOT lost leads</strong></p>
               <p><strong>👉 They are lost revenue opportunities</strong></p>
             </div>
             <div className="arrow">→</div>
-            <div className="solution-box">
+            <div className="solution-box" style={{marginBottom: '2rem'}}>
               <h3>The Solution</h3>
               <p>I step in at the final stage of your sales process and help those clients secure funding options so they can move forward immediately.</p>
             </div>
