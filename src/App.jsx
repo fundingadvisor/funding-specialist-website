@@ -75,16 +75,13 @@ function App() {
   const specializations = [
     {
       category: "Funding Products",
-      items: ["Personal Loans ($1K-$60K)", "0% Credit Cards (15-21 months if qualified)", "Creative solutions for all credit profiles"]
+      items: ["Personal Loans ($1K-$60K)", "0% Credit Cards (15-21 months if qualified)", "Creative solutions for all credit profiles", "5-6 vetted online lenders", "No exclusive affiliations"]
     },
     {
       category: "High Ticket Programs",
       items: ["Coaching & Mentorship Programs", "E-commerce Education & Training", "Digital Marketing Education", "Marketing & Lead Generation Agencies", "Personal Development & Business Training", "Affiliate Marketing Programs"]
     },
-    {
-      category: "Lender Network",
-      items: ["5-6 vetted online lenders", "No exclusive affiliations"]
-    }
+
   ]
 
   const processSteps = [
