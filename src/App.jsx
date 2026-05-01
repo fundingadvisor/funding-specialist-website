@@ -294,8 +294,12 @@ function App() {
             <p><strong>2. I handle funding conversations</strong></p>
             <p><strong>3. Client gets matched with options</strong></p>
             <p><strong>4. They complete the purchase</strong></p>
-            <p><strong>5. I earn 4% commission only on success</strong></p>
           </div>
+          
+          <p style={{marginTop: '2rem', fontSize: '1rem', lineHeight: '1.6', color: '#374151'}}>
+            <strong>Result:</strong> More qualified prospects complete their purchase without changing your sales process.<br/>
+            <strong>Compensation:</strong> Performance-based (4%) and applies only to successful outcomes.
+          </p>
 
 
           <div className="key-metrics">
