@@ -55,12 +55,12 @@ function App() {
 
   const services = [
     {
-      title: "Credit & Funding Matching",
-      description: "I evaluate each prospect's profile and match them with vetted lending options, including online lenders and 0% credit card solutions where applicable."
-    },
-    {
       title: "Sales Process Integration",
       description: "I take over the funding conversation after handoff from your sales team through your existing communication channels."
+    },
+    {
+      title: "Credit & Funding Matching",
+      description: "I evaluate each prospect's profile and match them with vetted lending options, including online lenders and 0% credit card solutions where applicable."
     },
     {
       title: "End-to-End Support",
