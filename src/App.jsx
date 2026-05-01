@@ -289,9 +289,7 @@ function App() {
       <section id="process" className="section process-section">
         <div className="container">
           <h2>How It Works</h2>
-          <p className="section-subtitle">Simple 5-step process</p>
-          
-          <div className="process-text">
+          <div className="process-text" style={{marginTop: '0.5rem'}}>
             <p><strong>1. You send me a qualified prospect</strong></p>
             <p><strong>2. I handle funding conversations</strong></p>
             <p><strong>3. Client gets matched with options</strong></p>
