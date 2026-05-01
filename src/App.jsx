@@ -316,8 +316,8 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="section contact-section">
         <div className="container">
-          <h2>Ready to Increase Conversions?</h2>
-          <p className="section-subtitle">Let's discuss how we can work together to convert more qualified prospects</p>
+          <h2>Explore a Funding Partnership</h2>
+          <p className="section-subtitle">Let's take a quick look at your sales process and see where funding support could increase your close rate.</p>
           
           <div className="contact-form">
             <form ref={formRef} onSubmit={handleSubmit}>
