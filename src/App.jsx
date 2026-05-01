@@ -286,7 +286,7 @@ function App() {
           
           <p style={{marginTop: '2rem', fontSize: '1rem', lineHeight: '1.6', color: '#374151', textAlign: 'center'}}>
             <strong>Result:</strong> More qualified prospects complete their purchase without changing your sales process.<br/>
-            <strong>Compensation:</strong> Performance-based (4%) and applies only to successful outcomes.
+            <strong>Compensation:</strong> 4% performance-based, applied only to completed purchases.
           </p>
         </div>
       </section>
