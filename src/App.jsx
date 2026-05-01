@@ -335,19 +335,7 @@ function App() {
                 <ValidationError field="email" errors={state.errors} />
               </div>
               <div className="form-group">
-                <input type="text" name="company" placeholder="Company Name" required />
-                <ValidationError field="company" errors={state.errors} />
-              </div>
-              <div className="form-group">
-                <input type="text" name="programType" placeholder="Program Type (e.g., Coaching, E-commerce, Digital Marketing)" required />
-                <ValidationError field="programType" errors={state.errors} />
-              </div>
-              <div className="form-group">
-                <input type="text" name="prospectsPerWeek" placeholder="Estimated Prospects/Week" required />
-                <ValidationError field="prospectsPerWeek" errors={state.errors} />
-              </div>
-              <div className="form-group">
-                <textarea name="message" placeholder="Tell me about your program and partnership goals..." rows="5" required></textarea>
+                <textarea name="message" placeholder="Tell me about your program" rows="5" required></textarea>
                 <ValidationError field="message" errors={state.errors} />
               </div>
               <button type="submit" disabled={state.submitting} className="submit-button">
