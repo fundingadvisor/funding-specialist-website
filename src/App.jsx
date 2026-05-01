@@ -280,51 +280,17 @@ function App() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-
-
-      {/* Process Section */}
-      <section id="process" className="section process-section">
-        <div className="container">
-          <h2>How It Works</h2>
-          <div className="process-text" style={{marginTop: '0.5rem'}}>
-            <p><strong>1. You send me a qualified prospect</strong></p>
-            <p><strong>2. I handle funding conversations</strong></p>
-            <p><strong>3. Client gets matched with options</strong></p>
-            <p><strong>4. They complete the purchase</strong></p>
-          </div>
           
-          <p style={{marginTop: '2rem', fontSize: '1rem', lineHeight: '1.6', color: '#374151'}}>
+          <p style={{marginTop: '2rem', fontSize: '1rem', lineHeight: '1.6', color: '#374151', textAlign: 'center'}}>
             <strong>Result:</strong> More qualified prospects complete their purchase without changing your sales process.<br/>
             <strong>Compensation:</strong> Performance-based (4%) and applies only to successful outcomes.
           </p>
-
-
-          <div className="key-metrics">
-            <h3>Key Metrics</h3>
-            <div className="metrics-grid">
-              <div className="metric">
-                <h4>Average Funding Time</h4>
-                <p className="metric-value">Personal Loans: 5-7 Days</p>
-                <p className="metric-desc">0% Credit Cards: 7 Days</p>
-              </div>
-
-              <div className="metric">
-                <h4>Funding Range</h4>
-                <p className="metric-value">$1K - $60K</p>
-                <p className="metric-desc">Average $10K per client</p>
-              </div>
-              <div className="metric">
-                <h4>Capacity</h4>
-                <p className="metric-value">20-30+ Clients/Week</p>
-                <p className="metric-desc">Can handle high volume</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
+
+
+
+
 
 
 
