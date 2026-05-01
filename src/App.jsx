@@ -351,7 +351,7 @@ function App() {
                 <ValidationError field="message" errors={state.errors} />
               </div>
               <button type="submit" disabled={state.submitting} className="submit-button">
-                {state.submitting ? 'Sending...' : 'Send Message'}
+                {state.submitting ? 'Sending...' : "Let's Connect"}
               </button>
             </form>
           </div>
