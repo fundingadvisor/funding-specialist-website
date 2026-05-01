@@ -256,14 +256,12 @@ function App() {
               <div className="about-text">
                 <h3>Who I Am</h3>
                 <p><strong>Lynne Faulkner</strong></p>
-                <p>I'm an independent funding specialist contractor with over 5 years of experience working with high-ticket coaching, e-commerce education, and digital marketing companies.</p>
+                <p>I'm an independent funding specialist with over 5 years of experience working with high-ticket coaching, e-commerce education, and digital marketing companies.</p>
                 <p>I've supported thousands of clients across these industries and understand exactly how payment friction impacts conversion at the final stage of the sales process.</p>
+                <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
               </div>
             </div>
-            
-            <h3>What I Do</h3>
-            <p>I help high-ticket coaching and digital education companies convert more qualified prospects at the point of purchase.</p>
-            <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
+
           </div>
         </div>
       </section>
