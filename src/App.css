@@ -478,7 +478,7 @@ body {
   display: flex;
   align-items: center;
   gap: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
 }
 
