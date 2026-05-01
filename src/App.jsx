@@ -223,7 +223,7 @@ function App() {
               </div>
             ))}
           </div>
-          <button className="cta-button" onClick={handleStartPartnership}>Book a 15-minute partnership call</button>
+          <button className="cta-button" onClick={handleStartPartnership}>Let's Connect</button>
         </div>
       </section>
 
@@ -342,6 +342,7 @@ function App() {
                 {state.submitting ? 'Sending...' : "Let's Connect"}
               </button>
             </form>
+            <p style={{marginTop: '1.5rem', textAlign: 'center', fontSize: '0.95rem', color: '#6b7280'}}>I'll personally reach out within 24 hours to continue the conversation.</p>
           </div>
 
           <div className="contact-info">
