@@ -48,7 +48,7 @@ function App() {
 
   const stats = [
     { number: "4,040", label: "Clients Funded", icon: "👥" },
-    { number: "5+", label: "Years Experience", icon: "⭐" },
+    { number: "6+", label: "Years Experience", icon: "⭐" },
     { number: "5 Days", label: "Avg Timeline", icon: "⏱️" },
     { number: "4%", label: "Performance Fee", icon: "💰" }
   ]
@@ -166,7 +166,7 @@ function App() {
     },
     {
       title: "Proven Track Record",
-      description: "5+ years of experience successfully funding 4,040 clients across multiple programs"
+      description: "6+ years of experience successfully funding 4,040 clients across multiple programs"
     },
     {
       title: "Seamless Integration",
@@ -238,7 +238,7 @@ function App() {
               <div className="about-text">
                 <h3>Who I Am</h3>
                 <p><strong>Lynne Faulkner</strong></p>
-                <p>I'm an independent funding specialist with over 5 years of experience working with high-ticket coaching, e-commerce education, and digital marketing companies.</p>
+                <p>I'm an independent funding specialist with over 6 years of experience working with high-ticket coaching, e-commerce education, and digital marketing companies.</p>
                 <p>I've supported thousands of clients across these industries and understand exactly how payment friction impacts conversion at the final stage of the sales process.</p>
                 <p>When a prospect is ready to move forward but hesitant due to upfront cost, I help them explore funding options so they can complete their purchase without delay.</p>
               </div>
