@@ -148,6 +148,10 @@ function App() {
     {
       name: "Teo Vanyo (Stealth Agents)",
       description: "Virtual assistant outsourcing company"
+    },
+    {
+      name: "Adam Chandler",
+      description: "Digital marketing & lead generation training"
     }
   ]
 
