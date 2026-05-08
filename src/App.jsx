@@ -47,7 +47,7 @@ function App() {
   }, [])
 
   const stats = [
-    { number: "4,040", label: "Clients Funded", icon: "👥" },
+    { number: "2,795", label: "Clients Funded", icon: "👥" },
     { number: "6+", label: "Years Experience", icon: "⭐" },
     { number: "5 Days", label: "Avg Timeline", icon: "⏱️" },
     { number: "4%", label: "Performance Fee", icon: "💰" }
@@ -170,7 +170,7 @@ function App() {
     },
     {
       title: "Proven Track Record",
-      description: "6+ years of experience successfully funding 4,040 clients across multiple programs"
+      description: "6+ years of experience successfully funding 2,795 clients across multiple programs"
     },
     {
       title: "Seamless Integration",
